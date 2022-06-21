@@ -1,0 +1,5 @@
+<launch>
+  <node name = 'sensor' pkg = 'test1' type = 'sensors.py' output = 'screen' />
+  <node name = 'webcam' pkg = 'test1' type = 'cam_pub.py' output = 'screen' />
+  <node name = 'motors' pkg = 'test1' type = 'motors.py' output = 'screen' />
+</launch>
